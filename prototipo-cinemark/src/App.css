@@ -1,0 +1,102 @@
+
+#root{
+    background-color: #282B34;
+    font-family: "Roboto Condensed",sans-serif;;
+    color: #ECECEC;
+}
+
+/***** Tipografia *******/
+.txt_primario{
+    color: #ECECEC;
+}
+
+.txt_secundario{
+    color: #282B34;
+}
+
+.txt_terciario{
+    color: #B5121B;
+}
+
+.txt_auxiliar{
+    color: #BFBFBF;
+}
+
+/***** Colores *****/
+.bg_primario{
+    background-color: #282B34;
+}
+
+.bg_secundario{
+    background-color: #ECECEC;
+}
+
+.bg_terciario{
+    background-color: #B5121B;
+}
+
+.bg_auxiliar{
+    background-color: #BFBFBF;
+}
+
+.btn_bordes{
+    border: 1px solid #797979;
+}
+
+
+/***** *****/
+select{
+    border-radius: 15px;
+    height: 30px;
+}
+
+.control_cartelera{
+    width: 60px;
+
+}
+
+#tituloEstrenos{
+    width: 185px;
+    margin-left: 91px;
+}
+
+#DBOX{
+    position: relative;
+}
+
+h3{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    margin-bottom: 10px;
+}
+
+p{
+    position: absolute;
+    top: 10%;
+    left: 1%;
+}
+
+#img_dbox{
+    width: 95%;
+    height: 300px;
+}
+
+#dbox_info{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+}
+
+#transformes_dbox{
+    width: 200px;
+    height: 230px;
+    position: absolute;
+    bottom: 10%;
+    right: 13%;
+}
+
+.img_promocion{
+    width: 500px;
+    height: 200px;
+}

@@ -1,0 +1,25 @@
+section{
+    position: relative;
+    width: 100%;
+}
+
+#imagenBanner{
+    width: 100%;
+    height: 300px;
+}
+
+#ctrl_atras{
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    height: 30px;
+    width: 30px;
+}
+
+#ctrl_adelante{
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    height: 30px;
+    width: 30px;
+}

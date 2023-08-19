@@ -1,0 +1,25 @@
+menu{
+    height: 65px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    column-gap: 35px;
+    margin-top: 15px;
+}
+
+ul li{
+    text-decoration: none;
+    display: inline-flex;
+}
+
+ul li a{
+    color: #666666;
+    text-decoration: none;
+}
+
+img{
+    height: 55px;
+    width: 300px;
+}
