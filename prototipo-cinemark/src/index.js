@@ -1,12 +1,43 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import './App.css';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+import Home from './routes/Home';
+import Registro from './routes/Registro';
+import InicioSesion from './routes/InicioSesion';
+import RecuperarContraseña from './routes/RecuperarContrasena';
+import Horario from './routes/Horarios'
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+    errorElement: <h1>No se puede acceder al elemento solicitado</h1>
+  },
+  {
+    path: "/registro",
+    element: <Registro />
+  },
+  {
+    path: "/iniciarSesion",
+    element: <InicioSesion />
+  },
+  {
+    path: "/horarios",
+    element: <Horario />
+  },
+  {
+    path: "/recuperarContraseña",
+    element: <RecuperarContraseña />
+  }
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

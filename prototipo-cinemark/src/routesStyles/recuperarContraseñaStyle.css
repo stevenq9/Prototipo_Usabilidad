@@ -1,0 +1,13 @@
+/*** FORMS ***/ 
+#recuperarContraseña{
+    height: 462px;
+}
+
+input{
+    height: 40px;
+    border-radius: 15px;
+}
+
+.btn{
+    border-radius: 50px;
+}

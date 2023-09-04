@@ -1,0 +1,25 @@
+#portada{
+    height: 350px;
+}
+
+.borderInformacion{
+    border-bottom: 2px dashed #3E4149;
+}
+
+.borderHorario{
+    border: 2px solid #3E4149;
+}
+
+.bg_horarios{
+    background-color: #3E4149;
+    border-radius: 5px;
+}
+
+.bg_tipoSala{
+    border-radius: 5px;
+}
+
+.bg_fechas{
+    height: 65px;
+    background-color: #3E4149;
+}

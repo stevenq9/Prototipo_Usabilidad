@@ -43,6 +43,13 @@
     border: 1px solid #797979;
 }
 
+.boton{
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
 
 /***** *****/
 select{
@@ -99,4 +106,12 @@ p{
 .img_promocion{
     width: 500px;
     height: 200px;
+}
+
+.links{
+    text-decoration: none;
+}
+
+.links:hover{
+    color: #B5121B;
 }
