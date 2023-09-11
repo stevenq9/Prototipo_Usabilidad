@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Prototipo_Usabilidad/static/css/main.d75920ed.css",
+    "main.js": "/Prototipo_Usabilidad/static/js/main.7b39e155.js",
+    "static/media/Recomendados.png": "/Prototipo_Usabilidad/static/media/Recomendados.290e231e62947e22108e.png",
+    "static/media/flash.png": "/Prototipo_Usabilidad/static/media/flash.25810d449034c59f5da6.png",
+    "static/media/promocion1.png": "/Prototipo_Usabilidad/static/media/promocion1.3d8bd08c071bc9a9dd58.png",
+    "static/media/promocion2.png": "/Prototipo_Usabilidad/static/media/promocion2.4a2b9d194b04a45a5a91.png",
+    "static/media/transformersPelicula.jpg": "/Prototipo_Usabilidad/static/media/transformersPelicula.2a4299e935d9eafc0a7c.jpg",
+    "static/media/spidermanPelicula.jpg": "/Prototipo_Usabilidad/static/media/spidermanPelicula.6aacb84eb4159b93667d.jpg",
+    "static/media/flashPelicula.jpg": "/Prototipo_Usabilidad/static/media/flashPelicula.4ee32209d032446bd6e7.jpg",
+    "static/media/sanMiguelPelicula.jpg": "/Prototipo_Usabilidad/static/media/sanMiguelPelicula.b782690a83bf2680cc77.jpg",
+    "static/media/sirenitaPelicula.jpg": "/Prototipo_Usabilidad/static/media/sirenitaPelicula.2232b74bc0a1e7379945.jpg",
+    "static/media/Cinemark_Logo.svg.png": "/Prototipo_Usabilidad/static/media/Cinemark_Logo.svg.8aaa174971d7ff1275d8.png",
+    "index.html": "/Prototipo_Usabilidad/index.html",
+    "main.d75920ed.css.map": "/Prototipo_Usabilidad/static/css/main.d75920ed.css.map",
+    "main.7b39e155.js.map": "/Prototipo_Usabilidad/static/js/main.7b39e155.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d75920ed.css",
+    "static/js/main.7b39e155.js"
+  ]
+}
