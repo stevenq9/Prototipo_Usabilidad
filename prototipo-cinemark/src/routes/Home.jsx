@@ -13,6 +13,7 @@ function Home(){
         <section tabIndex="4" className='row ms-5 mt-3 txt_primario d-flex align-items-center'>
           <div tabIndex="5" className="col-2">
             Usted está en:
+            
           </div>
           <div className="col-1">
             <select name='ubicacionUsuario' className='txt_auxiliar' tabIndex="6">
