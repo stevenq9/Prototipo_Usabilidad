@@ -13,7 +13,7 @@ function InicioSesion() {
 
             <div id="inicioSesion" className='row d-flex justify-content-center'>
                 <div id='' className='row d-flex align-items-center formulario mt-4 ps-5 pt-2 pb-2 pe-5'>
-                    <h1 className='txt_primario fw-bold text-center'>INICIAR SESIÓN</h1>
+                    <h1 role='navigation' tabIndex="0" className='txt_primario fw-bold text-center'>INICIAR SESIÓN</h1>
 
                     <input className='bg_secundario' type="email" placeholder='CORREO' />
                     <input className='bg_secundario' type="password" name="contraseña" placeholder='CONTRASEÑA' />
@@ -23,10 +23,10 @@ function InicioSesion() {
                     <Link className='links txt_primario' to="/recuperarContraseña">
                         <h5 className='text-center'>¿Olvidaste tu contraseña?</h5>
                     </Link>
-                    <text>O continua con:</text>
+                    <text role='navigation' tabIndex="0" >O continua con:</text>
                     <div className=''>
-                        <img className='col-5 ms-4 me-3' src={require('../images/continuaConGoogle.png')} alt="Registrate con Google" />
-                        <img className='col-5' src={require('../images/continuaConFacebook.png')} alt="Registrate con Facebook" />
+                        <img role='img' tabIndex="0" className='col-5 ms-4 me-3' src={require('../images/continuaConGoogle.png')} alt="Registrate con Google" />
+                        <img role='img' tabIndex="0" className='col-5' src={require('../images/continuaConFacebook.png')} alt="Registrate con Facebook" />
                     </div>
                 </div>
             </div>

@@ -20,16 +20,16 @@ function RecuperarContrasena() {
 
             <div id="recuperarContraseña" className='row d-flex justify-content-center'>
                 <div action="Post" className='row formulario d-flex align-items-center form mt-4 ps-5 pt-2 pb-2 pe-5'>
-                    <h1 className='txt_primario fw-bold text-center'>RECUPERAR CONTRASEÑA</h1>
-                    <h5>Ingresa tu dirección de correo electrónico, te enviaremos un enlace para recuperar tu contraseña</h5>
+                    <h1 role='navigation' tabIndex="0" className='txt_primario fw-bold text-center'>RECUPERAR CONTRASEÑA</h1>
+                    <h5 role='navigation' tabIndex="0">Ingresa tu dirección de correo electrónico, te enviaremos un enlace para recuperar tu contraseña</h5>
                     <input className='row bg_secundario' type="email" placeholder='CORREO' />
                     <div className='row d-flex justify-content-center '>
                         <button className='row bg_terciario btn txt_primario' onClick={handleEnviarClick}>
                             ENVIAR
                         </button>
                     </div>
-                    <h5 className='row fw-bold text-center'>
-                        <span id="iconoVisto" className='fst-italic' style={{ display: enlaceEnviado ? 'inline' : 'none' }}>
+                    <h5 tabIndex="0" className='row fw-bold text-center'>
+                        <span role='navigation' tabIndex="0"  id="iconoVisto" className='fst-italic' style={{ display: enlaceEnviado ? 'inline' : 'none' }}>
                             ✓ ENLACE ENVIADO <br /> <br />
                             ¿No encuentras el correo? No olvides revisar tu bandeja de Spam
                         </span>

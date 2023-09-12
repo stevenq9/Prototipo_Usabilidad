@@ -6,21 +6,21 @@ function Footer() {
         <footer class="container-fluid float-start txt_primario">
             <div class="row mt-3 ms-5 me-5 text-center">
                 <div class="col-2 ms-5">
-                    <h4 >Sobre Cinemark</h4>
-                    <h5 >¿Quiénes somos?</h5>
-                    <h5 >Términos y condiciones</h5>
+                    <h4 role='navigation' tabIndex="0"  >Sobre Cinemark</h4>
+                    <h5 role='navigation' tabIndex="0" >¿Quiénes somos?</h5>
+                    <h5 role='navigation' tabIndex="0" >Términos y condiciones</h5>
                 </div>
                 <div class="col-2">
-                    <h4 >Contáctanos</h4>
-                    <h5 >Pqrs</h5>
+                    <h4 role='navigation' tabIndex="0" >Contáctanos</h4>
+                    <h5 role='navigation' tabIndex="0" >Pqrs</h5>
                 </div>
                 <div class="col-2">
-                    <h4 >Marketing empresarial</h4>
-                    <h5 >Servicios</h5>
+                    <h4 role='navigation' tabIndex="0" >Marketing empresarial</h4>
+                    <h5 role='navigation' tabIndex="0" >Servicios</h5>
                 </div>
 
                 <div class="col-3">
-                    <h4 >Descarga nuestra App</h4>
+                    <h4 role='navigation' tabIndex="0" >Descarga nuestra App</h4>
                     <div class="row d-flex justify-content-between ms-4">
                         <div class="col-4 ">
                             <img role="img" tabIndex="0" className="img_descarga" src={require('../logos/PlayStore.png')} alt="Clic para descargar app por PlayStore" />
