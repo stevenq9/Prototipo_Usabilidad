@@ -9,6 +9,7 @@ import Registro from './routes/Registro';
 import InicioSesion from './routes/InicioSesion';
 import RecuperarContraseña from './routes/RecuperarContrasena';
 import Horario from './routes/Horarios'
+import Verificar from './components/VerificarCorreo'
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/recuperarContraseña",
     element: <RecuperarContraseña />
+  },
+  {
+    path: "/verificar",
+    element: <Verificar />
   }
 ])
 

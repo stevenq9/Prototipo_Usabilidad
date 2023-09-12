@@ -32,7 +32,7 @@ function RecuperarContrasena() {
                         <span id="iconoVisto" className='fst-italic' style={{ display: enlaceEnviado ? 'inline' : 'none' }}>
                             ✓ ENLACE ENVIADO <br /> <br />
                             ¿No encuentras el correo? No olvides revisar tu bandeja de Spam
-                            </span>
+                        </span>
                     </h5>
                 </div>
             </div>

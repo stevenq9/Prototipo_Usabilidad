@@ -1,0 +1,15 @@
+/*** FORMS ***/ 
+#formVerificar{
+    height: 100vh;
+    width: 500px;
+    background-color: #282B34;
+}
+
+input{
+    height: 40px;
+    border-radius: 15px;
+}
+
+.btn{
+    border-radius: 50px;
+}
