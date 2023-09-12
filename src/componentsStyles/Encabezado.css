@@ -50,3 +50,8 @@ span{
     width: 100%;
 }
 
+
+
+#btnInicioSesion :hover{
+    color: #282B34;
+}

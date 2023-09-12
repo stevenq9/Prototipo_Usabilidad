@@ -4,9 +4,11 @@ import '../componentsStyles/Pelicula.css';
 function Pelicula(props) {
     return (
         <div className="pelicula bg_primario">
-            <img  tabIndex="0" id="portadaPelicula" src={require(`../images/${props.nombre}Pelicula.jpg`)} alt="Clic para seleccionar la pelicula {props.nombre}" />
-            <div  tabIndex="1" className="btn_horarios bg_terciario">
-                VER HORARIOS
+            <img role="img" tabIndex="0" className="portadaPelicula" src={require(`../images/${props.nombre}Pelicula.jpg`)} alt="Clic para seleccionar la pelicula {props.nombre}" />
+            <div role="button" tabIndex="0" className="btn_horarios bg_terciario">
+                <a className="txt_primario"  href="/horarios" title="Enlace a los horarios de la película">
+                    VER HORARIOS
+                </a>
             </div>
         </div>
     );

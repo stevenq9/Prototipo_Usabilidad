@@ -12,8 +12,8 @@ function InicioSesion() {
             <Menu />
 
             <div id="inicioSesion" className='row d-flex justify-content-center'>
-                <div id='' className='row d-flex align-items-center formulario mt-5 ps-5 pt-2 pb-2 pe-5'>
-                    <h1 className='txt_terciario fw-bold text-center'>INICIAR SESIÓN</h1>
+                <div id='' className='row d-flex align-items-center formulario mt-4 ps-5 pt-2 pb-2 pe-5'>
+                    <h1 className='txt_primario fw-bold text-center'>INICIAR SESIÓN</h1>
 
                     <input className='bg_secundario' type="email" placeholder='CORREO' />
                     <input className='bg_secundario' type="password" name="contraseña" placeholder='CONTRASEÑA' />
