@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Prototipo_Usabilidad/static/css/main.ce0e2662.css",
-    "main.js": "/Prototipo_Usabilidad/static/js/main.03130a4f.js",
+    "main.js": "/Prototipo_Usabilidad/static/js/main.64219363.js",
     "static/media/Recomendados.png": "/Prototipo_Usabilidad/static/media/Recomendados.290e231e62947e22108e.png",
     "static/media/flash.png": "/Prototipo_Usabilidad/static/media/flash.25810d449034c59f5da6.png",
     "static/media/promocion1.png": "/Prototipo_Usabilidad/static/media/promocion1.3d8bd08c071bc9a9dd58.png",
@@ -15,10 +15,10 @@
     "static/media/Cinemark_Logo.svg.png": "/Prototipo_Usabilidad/static/media/Cinemark_Logo.svg.8aaa174971d7ff1275d8.png",
     "index.html": "/Prototipo_Usabilidad/index.html",
     "main.ce0e2662.css.map": "/Prototipo_Usabilidad/static/css/main.ce0e2662.css.map",
-    "main.03130a4f.js.map": "/Prototipo_Usabilidad/static/js/main.03130a4f.js.map"
+    "main.64219363.js.map": "/Prototipo_Usabilidad/static/js/main.64219363.js.map"
   },
   "entrypoints": [
     "static/css/main.ce0e2662.css",
-    "static/js/main.03130a4f.js"
+    "static/js/main.64219363.js"
   ]
 }
