@@ -13,28 +13,28 @@ import Verificar from './components/VerificarCorreo'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Prototipo_Usabilidad/",
     element: <Home />,
     errorElement: <h1>No se puede acceder al elemento solicitado</h1>
   },
   {
-    path: "/registro",
+    path: "/Prototipo_Usabilidad/registro",
     element: <Registro />
   },
   {
-    path: "/iniciarSesion",
+    path: "/Prototipo_Usabilidad/iniciarSesion",
     element: <InicioSesion />
   },
   {
-    path: "/horarios",
+    path: "/Prototipo_Usabilidad/horarios",
     element: <Horario />
   },
   {
-    path: "/recuperarContraseña",
+    path: "/Prototipo_Usabilidad/recuperarContraseña",
     element: <RecuperarContraseña />
   },
   {
-    path: "/verificar",
+    path: "/Prototipo_Usabilidad/verificar",
     element: <Verificar />
   }
 ])

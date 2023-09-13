@@ -31,9 +31,14 @@ function Banner() {
         ctrlAtras.addEventListener('click', retrocederImagen);
         ctrlAdelante.addEventListener('click', avanzarImagen);
 
+        // Cambiar automáticamente la imagen cada 10 segundos
+        const intervalId = setInterval(avanzarImagen, 10000);
+
+        // Limpia el intervalo cuando el componente se desmonta
         return () => {
             ctrlAtras.removeEventListener('click', retrocederImagen);
             ctrlAdelante.removeEventListener('click', avanzarImagen);
+            clearInterval(intervalId);
         }
     }, [indiceImagenActual]);
 

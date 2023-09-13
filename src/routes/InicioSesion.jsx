@@ -14,9 +14,14 @@ function InicioSesion() {
             <div id="inicioSesion" className='row d-flex justify-content-center'>
                 <div id='' className='row d-flex align-items-center formulario mt-4 ps-5 pt-2 pb-2 pe-5'>
                     <h1 role='navigation' tabIndex="0" className='txt_primario fw-bold text-center'>INICIAR SESIÓN</h1>
-
-                    <input className='bg_secundario' type="email" placeholder='CORREO' />
-                    <input className='bg_secundario' type="password" name="contraseña" placeholder='CONTRASEÑA' />
+                    <div>
+                        <label role='navigation' tabIndex="0" className='col-2' htmlFor="correo">Correo:</label>
+                        <input require id="correo" className='bg_secundario col-10' type="email" name="contraseña" placeholder='Escribe tu correo' />
+                    </div>
+                    <div>
+                        <label role='navigation' tabIndex="0" className='col-2' htmlFor="contrasena">Contraseña:</label>
+                        <input require id="contrasena" className='bg_secundario col-10' type="password" name="contraseña" placeholder='Escribe tu contraseña' />
+                    </div>
                     <div className='row d-flex justify-content-center '>
                         <button className='bg_terciario btn txt_primario'>INGRESAR</button>
                     </div>
