@@ -26,7 +26,7 @@ const router = createBrowserRouter([
     element: <InicioSesion />
   },
   {
-    path: "/Prototipo_Usabilidad/horarios",
+    path: "/Prototipo_Usabilidad/horario",
     element: <Horario />
   },
   {
