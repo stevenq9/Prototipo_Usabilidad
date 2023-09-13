@@ -25,7 +25,7 @@ function InicioSesion() {
                     <div className='row d-flex justify-content-center '>
                         <button className='bg_terciario btn txt_primario'>INGRESAR</button>
                     </div>
-                    <Link className='links txt_primario' to="/recuperarContraseña">
+                    <Link className='links txt_primario' to="/Prototipo_Usabilidad/recuperarContraseña">
                         <h5 className='text-center'>¿Olvidaste tu contraseña?</h5>
                     </Link>
                     <text role='navigation' tabIndex="0" >O continua con:</text>

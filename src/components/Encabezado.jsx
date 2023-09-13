@@ -46,10 +46,10 @@ function Encabezado() {
         <div className="col-4 d-flex justify-content-end">
           <div className="row txt_primario">
             <div className="col-4 boton bg_primario d-flex align-items-center">
-              <Link role="link" tabIndex="0" to="/registro" className="links text-center txt_primario">REGISTRARSE</Link>
+              <Link role="link" tabIndex="0" to="/Prototipo_Usabilidad/registro" className="links text-center txt_primario">REGISTRARSE</Link>
             </div>
             <div className="col-4 boton bg_terciario d-flex align-items-center me-4">
-              <Link id='btnInicioSesion' role="link" tabIndex="0" to="/iniciarSesion" className="text-center txt_primario">INICIAR SESIÓN</Link>
+              <Link id='btnInicioSesion' role="link" tabIndex="0" to="/Prototipo_Usabilidad/iniciarSesion" className="text-center txt_primario">INICIAR SESIÓN</Link>
             </div>
           </div>
         </div>

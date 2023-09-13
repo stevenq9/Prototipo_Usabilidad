@@ -5,7 +5,7 @@ function Menu() {
     return (
         <nav role="navigation" className="menu row txt_primario">
             <div className="col-3 d-flex align-items-center">
-                <a href="/"  title="Enlace página de inicio Cinemark">
+                <a href="/Prototipo_Usabilidad/"  title="Enlace página de inicio Cinemark">
                     <img role='img' tabIndex="0" src={require('../logos/Cinemark_Logo.svg.png')} alt="Logo Cinemark" />
                 </a>
             </div>
